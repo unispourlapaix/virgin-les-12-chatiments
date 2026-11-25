@@ -1,0 +1,48 @@
+{
+  "method": "Synthèse procédurale originale",
+  "format": "PCM WAV stereo 22050 Hz / 16-bit",
+  "clips": [
+    {
+      "name": "autoroute-ambiance",
+      "frames": 257985,
+      "seconds": 11.7,
+      "peak": 0.4
+    },
+    {
+      "name": "voiture-passage",
+      "frames": 57330,
+      "seconds": 2.6,
+      "peak": 0.72
+    },
+    {
+      "name": "bus-passage",
+      "frames": 72765,
+      "seconds": 3.3,
+      "peak": 0.72
+    },
+    {
+      "name": "camion-americain",
+      "frames": 81585,
+      "seconds": 3.7,
+      "peak": 0.72
+    },
+    {
+      "name": "train-roulement",
+      "frames": 83790,
+      "seconds": 3.8,
+      "peak": 0.72
+    },
+    {
+      "name": "tramway-roulement",
+      "frames": 72765,
+      "seconds": 3.3,
+      "peak": 0.72
+    },
+    {
+      "name": "avion-passage",
+      "frames": 92610,
+      "seconds": 4.2,
+      "peak": 0.72
+    }
+  ]
+}

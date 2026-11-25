@@ -1,0 +1,14 @@
+// A shared top menu. Existing game controls retain their original handlers.
+(()=>{
+ const menu=document.getElementById('game-menu'),backdrop=document.getElementById('game-menu-backdrop'),toggle=document.getElementById('game-menu-toggle');let owned=null;
+ function current(){if(Garage.active)return Garage;if(Sky.active)return Sky;if(Dream.active)return Dream;return null}
+ function close(resume=true){menu.classList.add('hidden');backdrop.classList.add('hidden');document.body.classList.remove('menu-open');toggle.setAttribute('aria-expanded','false');if(resume&&owned){if(owned==='street'){if(!current()&&mode==='pause')togglePause()}else if(current()===owned&&owned.inspect().paused)owned.togglePause()}owned=null;toggle.focus?.()}
+ function open(){if(typeof Adventure!=='undefined')Adventure.refresh();if(!menu.classList.contains('hidden')){close();return}for(const section of menu.querySelectorAll('details'))section.open=false;let chapter=current();owned=null;if(chapter){if(!chapter.inspect().paused){chapter.togglePause();if(chapter.inspect().paused)owned=chapter}}else if(mode==='play'){togglePause();owned='street'}menu.classList.remove('hidden');backdrop.classList.remove('hidden');document.body.classList.add('menu-open');toggle.setAttribute('aria-expanded','true');document.getElementById('game-menu-close').focus?.()}
+ function leave(){if(Garage.active)Garage.exit();if(Sky.active)Sky.exit();if(Dream.active)Dream.exit();document.getElementById('end').classList.add('hidden');document.body.classList.remove('garage-list-open');if(typeof HighwayAudio!=='undefined')HighwayAudio.stop()}
+ for(const section of menu.querySelectorAll('details'))section.addEventListener('toggle',()=>{if(section.open)for(const other of menu.querySelectorAll('details'))if(other!==section)other.open=false});
+ toggle.onclick=open;document.getElementById('game-menu-close').onclick=()=>close();document.getElementById('menu-resume').onclick=()=>close();backdrop.onclick=()=>close();
+ for(const button of menu.querySelectorAll('[data-level]'))button.onclick=()=>{let n=Number(button.dataset.level);if(typeof Adventure!=='undefined'){if(!Adventure.canPlay(n))return;close(false);Adventure.launch(n);return}close(false);leave();const id={1:'start',2:'dream-start',3:'sky-start',4:'garage-start',5:'night-start',6:'alley-start'}[button.dataset.level];if(button.dataset.level==='5')Night.start();else document.getElementById(id).click()};
+ document.getElementById('menu-home').onclick=()=>{close(false);leave();reset();mode='intro';document.getElementById('pause').textContent='Pause';document.getElementById('intro').classList.remove('hidden')};
+ if(typeof Adventure!=='undefined')Adventure.refresh();
+ document.addEventListener('keydown',e=>{if(menu.classList.contains('hidden'))return;if(e.key==='Escape'){e.preventDefault();e.stopPropagation();close()}else if(e.key.toLowerCase()==='p'){e.preventDefault();e.stopPropagation()}},true);
+})();
