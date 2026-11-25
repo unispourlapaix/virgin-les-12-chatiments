@@ -1,7 +1,7 @@
 // Local adventure progress. Only successful levels earn a fruit and unlock the next.
 const Adventure=(()=>{
 const key='virgin-adventure-fruits-v1',names=['Pomme','Poire','Orange','Fraise','Cerises','Ananas'];
-const values={object:50,cat:100,box:25,toy:20,water:75,food:75,diamond:250,heart:50,cloud:25,portal:50,reaction:15,hide:10,shelter:100,level:100};
+const values={snack:100,object:50,cat:100,box:25,toy:20,water:75,food:75,diamond:250,heart:50,cloud:25,portal:50,reaction:15,hide:10,shelter:100,level:100};
 let completed=new Set(),level=1,won=false,runScore=0,scored=new Set(),best=Array(7).fill(0);try{let saved=JSON.parse(window.localStorage.getItem(key)||'[]'),list=Array.isArray(saved)?saved:saved?.completed;if(Array.isArray(list))completed=new Set(list.filter(n=>Number.isInteger(n)&&n>=1&&n<=6));if(Array.isArray(saved?.best)&&saved.best.length===7)best=saved.best.map(n=>Number.isFinite(n)?Math.max(0,Math.floor(n)):0)}catch{}
 function save(){try{window.localStorage.setItem(key,JSON.stringify({completed:[...completed].sort(),best}))}catch{}}
 function displayScore(){let display=document.getElementById('adventure-score-value');if(display)display.textContent=runScore;let summary=document.getElementById('score-records');if(summary)summary.textContent='Partie : '+runScore+' pts · Records cumulés : '+best.reduce((a,b)=>a+b,0)+' pts'}
