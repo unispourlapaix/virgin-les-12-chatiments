@@ -16,7 +16,7 @@ Un seul départ : **L’aventure commence**. Réussissez chaque niveau pour déb
 4. **Le garage caché** : retrouver 12 objets anciens et 7 chats.
 5. **Retour dans la nuit** : repartir vers la gauche, entre camions-poubelles, rats, araignées, chiens et chats.
 6. **Les chats de la ruelle** : retrouver 12 objets des années 2020 et 12 chats dissimulés.
-7. **Les égouts de 1925** : retrouver 12 objets de 1925 et 12 chats en trois minutes. Le chronomètre à zéro déclenche GAME OVER et le débordement des eaux boueuses. Les deux vannes font baisser temporairement l’eau, sans prolonger le temps.
+7. **Les égouts** : retrouver 12 objets anciens et 12 chats en trois minutes. Le chronomètre à zéro déclenche GAME OVER et le débordement des eaux boueuses. Les deux vannes font baisser temporairement l’eau, sans prolonger le temps.
 
 Les niveaux 8 à 12 sont indiqués « À faire » dans le menu.
 
