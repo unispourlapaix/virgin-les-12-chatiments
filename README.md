@@ -8,7 +8,7 @@ Une aventure de chat en pixel art et manga, jouable dans le navigateur sur mobil
 
 Un seul départ : **L’aventure commence**. Réussissez chaque niveau pour débloquer le suivant. Les niveaux débloqués restent rejouables dans le menu.
 
-## Les sept niveaux actuels
+## Les huit niveaux actuels
 
 1. **La rue** : guider Virgin en cliquant sur les objets, trouver eau, nourriture et abri.
 2. **L’autoroute folle** : survivre au rêve et esquiver une circulation de plus en plus absurde.
@@ -18,9 +18,11 @@ Un seul départ : **L’aventure commence**. Réussissez chaque niveau pour déb
 6. **Les chats de la ruelle** : retrouver 12 objets des années 2020 et 12 chats dissimulés.
 7. **Les égouts** : retrouver 12 objets anciens et 12 chats en trois minutes. Le chronomètre à zéro déclenche GAME OVER et le débordement des eaux boueuses. Les deux vannes font baisser temporairement l’eau, sans prolonger le temps.
 
-Les niveaux 8 à 12 sont indiqués « À faire » dans le menu.
+8. **Le marché de Noël** : retrouver 12 objets français et festifs et 12 chats, parmi les chalets, les passants modernes et les vendeurs. Cette scène se joue sans chrono.
 
-Chaque réussite rapporte un trophée fruit pixelisé ; le niveau 7 donne une banane. Scores, records et niveaux débloqués sont enregistrés localement dans le navigateur.
+Les niveaux 9 à 12 sont indiqués « À faire » dans le menu.
+
+Chaque réussite rapporte un trophée fruit pixelisé ; le niveau 7 donne une banane et le niveau 8 une grappe de raisin. Scores, records et niveaux débloqués sont enregistrés localement dans le navigateur.
 
 ## Commandes
 
