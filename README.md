@@ -8,7 +8,7 @@ Une aventure de chat en pixel art et manga, jouable dans le navigateur sur mobil
 
 Un seul départ : **L’aventure commence**. Réussissez chaque niveau pour débloquer le suivant. Les niveaux débloqués restent rejouables dans le menu.
 
-## Les neuf niveaux actuels
+## Les dix niveaux actuels
 
 1. **La rue** : guider Virgin en cliquant sur les objets, trouver eau, nourriture et abri.
 2. **L’autoroute folle** : survivre au rêve et esquiver une circulation de plus en plus absurde.
@@ -22,9 +22,11 @@ Un seul départ : **L’aventure commence**. Réussissez chaque niveau pour déb
 
 9. **Les toits de Grenoble** : après la fuite devant les camions de nettoyage et l’ascension d’une gouttière, sauter par-dessus cheminées, antennes et espaces entre les toits au lever du soleil, pour échapper à Oscar. Tuiles glissantes, rebords de fenêtres et gouttières offrent des passages variés.
 
-Les niveaux 10 à 12 sont indiqués « À faire » dans le menu.
+10. **La Bastille et les bulles** : arrivée en téléphérique, panorama de Grenoble et de l’Isère, 12 objets ludiques et 12 chats cachés dans une illustration manga. Sans chrono, avec zoom et indices.
 
-Chaque réussite rapporte un trophée fruit pixelisé ; le niveau 7 donne une banane et le niveau 8 une grappe de raisin et le niveau 9 une pêche. Scores, records et niveaux débloqués sont enregistrés localement dans le navigateur.
+Les niveaux 11 et 12 sont indiqués « À faire » dans le menu.
+
+Chaque réussite rapporte un trophée fruit pixelisé ; le niveau 7 donne une banane et le niveau 8 une grappe de raisin et le niveau 9 une pêche. Le niveau 10 offre un citron. Le trophée spécial **Shinobi** récompense la victoire face à Oscar ninja au niveau 9. Scores, records et niveaux débloqués sont enregistrés localement dans le navigateur.
 
 ## Commandes
 
@@ -45,4 +47,4 @@ Dans GitHub Desktop, ouvrez ce dossier, effectuez vos commits puis utilisez **Pu
 
 Les illustrations du prologue et des scènes d’objets cachés ont été créées avec Imagegen. Les autres graphismes et animations sont dessinés dans le jeu ; les sons sont générés ou synthétisés.
 
-Le décor de Grenoble représente les montagnes, la Bastille et le téléphérique aux cabines sphériques. Repère documentaire : [Grenoble Alpes Tourisme — les bulles](https://www.grenoble-tourisme.com/fr/decouvrir/lessentiel/le-telepherique/). Les graphismes du niveau sont dessinés directement en pixel art dans le canvas.
+Le décor de Grenoble représente les montagnes, la Bastille et le téléphérique aux cabines sphériques. Repère documentaire : [Grenoble Alpes Tourisme — les bulles](https://www.grenoble-tourisme.com/fr/decouvrir/lessentiel/le-telepherique/). Les graphismes du niveau 9 sont dessinés directement en pixel art dans le canvas ; la terrasse du niveau 10 est une illustration manga créée avec Imagegen.
