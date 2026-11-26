@@ -8,7 +8,7 @@ Une aventure de chat en pixel art et manga, jouable dans le navigateur sur mobil
 
 Un seul départ : **L’aventure commence**. Réussissez chaque niveau pour débloquer le suivant. Les niveaux débloqués restent rejouables dans le menu.
 
-## Les huit niveaux actuels
+## Les neuf niveaux actuels
 
 1. **La rue** : guider Virgin en cliquant sur les objets, trouver eau, nourriture et abri.
 2. **L’autoroute folle** : survivre au rêve et esquiver une circulation de plus en plus absurde.
@@ -20,14 +20,17 @@ Un seul départ : **L’aventure commence**. Réussissez chaque niveau pour déb
 
 8. **Le marché de Noël** : retrouver 12 objets français et festifs et 12 chats, parmi les chalets, les passants modernes et les vendeurs. Cette scène se joue sans chrono.
 
-Les niveaux 9 à 12 sont indiqués « À faire » dans le menu.
+9. **Les toits de Grenoble** : après la fuite devant les camions de nettoyage et l’ascension d’une gouttière, sauter par-dessus cheminées, antennes et espaces entre les toits au lever du soleil, pour échapper à Oscar. Tuiles glissantes, rebords de fenêtres et gouttières offrent des passages variés.
 
-Chaque réussite rapporte un trophée fruit pixelisé ; le niveau 7 donne une banane et le niveau 8 une grappe de raisin. Scores, records et niveaux débloqués sont enregistrés localement dans le navigateur.
+Les niveaux 10 à 12 sont indiqués « À faire » dans le menu.
+
+Chaque réussite rapporte un trophée fruit pixelisé ; le niveau 7 donne une banane et le niveau 8 une grappe de raisin et le niveau 9 une pêche. Scores, records et niveaux débloqués sont enregistrés localement dans le navigateur.
 
 ## Commandes
 
 - **Rue** : cliquez ou touchez les objets pour avancer, jouer, boire, manger ou se cacher.
 - **Autoroute et ciel** : glissez le doigt, ou utilisez les flèches / ZQSD.
+- **Toits de Grenoble** : toucher l’écran ou appuyer sur Espace / ↑ pour sauter ; Virgin court automatiquement.
 - **Objets cachés** : faites glisser le décor, pincez à deux doigts ou utilisez les boutons de zoom.
 - **Menu en haut** : niveaux, trophées, réglages et aide. L’ouverture met la partie en pause.
 - **Plein écran** : Menu → Réglages → Plein écran, si le navigateur le permet.
@@ -41,3 +44,5 @@ GitHub Pages publie la branche **main**, dossier **/(root)**. Le fichier `.nojek
 Dans GitHub Desktop, ouvrez ce dossier, effectuez vos commits puis utilisez **Push origin**. Les modifications publiées sur `main` mettent le site à jour.
 
 Les illustrations du prologue et des scènes d’objets cachés ont été créées avec Imagegen. Les autres graphismes et animations sont dessinés dans le jeu ; les sons sont générés ou synthétisés.
+
+Le décor de Grenoble représente les montagnes, la Bastille et le téléphérique aux cabines sphériques. Repère documentaire : [Grenoble Alpes Tourisme — les bulles](https://www.grenoble-tourisme.com/fr/decouvrir/lessentiel/le-telepherique/). Les graphismes du niveau sont dessinés directement en pixel art dans le canvas.
