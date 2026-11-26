@@ -27,7 +27,7 @@ const cats=[
 {id:'cat-front',name:'Le chat du premier plan',hint:'Observe les cartons du premier plan.',x:0.282,y:0.806,rx:0.029,ry:0.024},
 {id:'virgin',name:'Virgin',hint:'Virgin se cache derrière la jardinière du premier plan à droite.',x:0.878,y:0.809,rx:0.034,ry:0.023}
 ];
-const config={id:'alley',image:'assets/alley-manga.png',items,cats};
+const config={id:'alley',chapter:6,image:'assets/alley-manga.png',items,cats};
 function start(){Garage.start(config)}
 document.getElementById('alley-start').onclick=start;
 return{start,get active(){return Garage.active&&Garage.inspect().chapter===6},inspect:()=>Garage.inspect()};
