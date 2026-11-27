@@ -1,4 +1,4 @@
-# Virgin, les 12 châtiments
+# Virgin — Une vie de chat
 
 Une aventure de chat en pixel art et manga, jouable dans le navigateur sur mobile, tablette et ordinateur.
 
