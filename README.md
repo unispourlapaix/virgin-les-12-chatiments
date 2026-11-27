@@ -50,3 +50,11 @@ Dans GitHub Desktop, ouvrez ce dossier, effectuez vos commits puis utilisez **Pu
 Les illustrations du prologue et des scènes d’objets cachés ont été créées avec Imagegen. Les autres graphismes et animations sont dessinés dans le jeu ; les sons sont générés ou synthétisés.
 
 Le décor de Grenoble représente les montagnes, la Bastille et le téléphérique aux cabines sphériques. Repère documentaire : [Grenoble Alpes Tourisme — les bulles](https://www.grenoble-tourisme.com/fr/decouvrir/lessentiel/le-telepherique/). Les graphismes du niveau 9 sont dessinés directement en pixel art dans le canvas ; la terrasse du niveau 10 est une illustration manga créée avec Imagegen.
+
+## Chansons intégrées
+
+- **Accueil / bande dessinée** : Chatoiement de la vie.
+- **Niveau 1** : La pâtée, la pâtée !
+- **Niveau 12** : Joyeux anniversaire !
+
+Pistes fournies par le créateur du jeu, extraites des vidéos locales et encodées en AAC/M4A à 128 kbit/s. Un seul lecteur joue en boucle, à volume réduit ; les bruitages restent audibles. La lecture démarre après une interaction, suit la pause et le réglage Son, et peut aussi être coupée séparément dans Menu → Réglages → Musique. Les autres niveaux conservent leurs bruitages.
