@@ -8,7 +8,7 @@ Une aventure de chat en pixel art et manga, jouable dans le navigateur sur mobil
 
 Un seul départ : **L’aventure commence**. Réussissez chaque niveau pour débloquer le suivant. Les niveaux débloqués restent rejouables dans le menu.
 
-## Les dix niveaux actuels
+## Les onze niveaux actuels
 
 1. **La rue** : guider Virgin en cliquant sur les objets, trouver eau, nourriture et abri.
 2. **L’autoroute folle** : survivre au rêve et esquiver une circulation de plus en plus absurde.
@@ -24,7 +24,9 @@ Un seul départ : **L’aventure commence**. Réussissez chaque niveau pour déb
 
 10. **La Bastille et les bulles** : arrivée en téléphérique, panorama de Grenoble et de l’Isère, 12 objets ludiques et 12 chats cachés dans une illustration manga. Sans chrono, avec zoom et indices.
 
-Les niveaux 11 et 12 sont indiqués « À faire » dans le menu.
+11. **Le rêve des pigeons** : une armée de pigeons poursuit Virgin dans une rue de jour et vise sa tête. Cliquez les objets et les abris pour esquiver les fientes, boire aux fontaines au lion, manger et rejoindre l’auvent. Trois vies, attaques annoncées et trophée kiwi.
+
+Le niveau 12 est indiqué « À faire » dans le menu.
 
 Chaque réussite rapporte un trophée fruit pixelisé ; le niveau 7 donne une banane et le niveau 8 une grappe de raisin et le niveau 9 une pêche. Le niveau 10 offre un citron. Le trophée spécial **Shinobi** récompense la victoire face à Oscar ninja au niveau 9. Scores, records et niveaux débloqués sont enregistrés localement dans le navigateur.
 
