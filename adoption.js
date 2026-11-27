@@ -1,240 +1,240 @@
-// Chapter XII: twelve hidden cats, separate from Virgin and three visible friends.
+// Chapter XII: twelve cat representations hidden in a happy adopted kitten’s home.
 const Adoption=(()=>{
 const items=[
  {
-  "id": "adoption-brush",
-  "name": "Brosse de toilettage",
-  "clue": "De petites picots pour une fourrure toute douce.",
-  "hint": "Cherche la brosse jaune sur l’étagère de gauche.",
-  "x": 0.1,
-  "y": 0.104,
-  "rx": 0.052,
-  "ry": 0.036
- },
- {
-  "id": "adoption-collar",
-  "name": "Collier à clochette",
-  "clue": "Un ruban rouge et une petite clochette.",
-  "hint": "Regarde tout en haut à droite.",
-  "x": 0.795,
-  "y": 0.182,
-  "rx": 0.025,
-  "ry": 0.043
- },
- {
-  "id": "adoption-laser",
-  "name": "Jouet laser",
-  "clue": "Une petite lampe pour courir après un point lumineux.",
-  "hint": "Explore la tablette à gauche du box.",
-  "x": 0.105,
-  "y": 0.335,
-  "rx": 0.062,
-  "ry": 0.017
- },
- {
-  "id": "adoption-bowl",
-  "name": "Gamelle en inox",
-  "clue": "Un bol argenté pour les repas.",
-  "hint": "Cherche sur les étagères du côté droit.",
-  "x": 0.905,
-  "y": 0.329,
-  "rx": 0.073,
+  "id": "home-kibblebowl",
+  "name": "Gamelle de croquettes",
+  "clue": "Un bol rempli attend le prochain petit creux de Virgin.",
+  "hint": "Regarde au pied du divan, à côté du bol d’eau.",
+  "x": 0.166,
+  "y": 0.582,
+  "rx": 0.046,
   "ry": 0.022
  },
  {
-  "id": "adoption-wand",
+  "id": "home-collar",
+  "name": "Collier à clochette",
+  "clue": "Une petite clochette au bout d’un ruban violet.",
+  "hint": "Cherche dans les accessoires suspendus à droite.",
+  "x": 0.824,
+  "y": 0.135,
+  "rx": 0.028,
+  "ry": 0.045
+ },
+ {
+  "id": "home-laser",
+  "name": "Jouet laser",
+  "clue": "Une petite lampe pour jouer avec un point lumineux.",
+  "hint": "Explore la console à gauche.",
+  "x": 0.082,
+  "y": 0.376,
+  "rx": 0.045,
+  "ry": 0.015
+ },
+ {
+  "id": "home-wand",
   "name": "Canne à plume",
-  "clue": "Une plume rose au bout d’une longue baguette.",
-  "hint": "Observe les jouets à gauche.",
-  "x": 0.2,
-  "y": 0.405,
-  "rx": 0.08,
+  "clue": "Une plume rose attend une patte curieuse.",
+  "hint": "Cherche près de l’arbre à chat.",
+  "x": 0.25,
+  "y": 0.3,
+  "rx": 0.04,
+  "ry": 0.04
+ },
+ {
+  "id": "home-scoop",
+  "name": "Pelle à litière",
+  "clue": "Une pelle bleue avec des petits trous.",
+  "hint": "Regarde près de la litière sur la droite.",
+  "x": 0.934,
+  "y": 0.464,
+  "rx": 0.028,
   "ry": 0.035
  },
  {
-  "id": "adoption-scoop",
-  "name": "Pelle à litière",
-  "clue": "Une pelle bleue avec des petits trous.",
-  "hint": "Cherche l’accessoire suspendu à droite.",
-  "x": 0.808,
-  "y": 0.428,
-  "rx": 0.04,
-  "ry": 0.06
+  "id": "home-caterpillar",
+  "name": "Doudou chenille",
+  "clue": "Un long doudou tout doux fait de boules colorées.",
+  "hint": "La chenille attend devant le divan.",
+  "x": 0.342,
+  "y": 0.645,
+  "rx": 0.14,
+  "ry": 0.031
  },
  {
-  "id": "adoption-mouse",
-  "name": "Souris en tissu",
-  "clue": "Une petite souris qui ne mord pas.",
-  "hint": "Regarde les plateformes de l’arbre à chat à gauche.",
-  "x": 0.125,
-  "y": 0.598,
-  "rx": 0.05,
-  "ry": 0.025
+  "id": "home-puzzle",
+  "name": "Jeu de friandises",
+  "clue": "Un puzzle vert pour gagner des petites récompenses.",
+  "hint": "Explore la table basse.",
+  "x": 0.732,
+  "y": 0.558,
+  "rx": 0.08,
+  "ry": 0.022
  },
  {
-  "id": "adoption-treats",
-  "name": "Sachet de friandises",
-  "clue": "Une pochette orange pour les petites récompenses.",
-  "hint": "Explore la table basse au centre.",
-  "x": 0.511,
-  "y": 0.602,
-  "rx": 0.055,
+  "id": "home-fountain",
+  "name": "Fontaine à eau",
+  "clue": "Un petit appareil bleu distribue de l’eau fraîche.",
+  "hint": "Regarde le sol à droite du divan.",
+  "x": 0.77,
+  "y": 0.684,
+  "rx": 0.075,
   "ry": 0.05
  },
  {
-  "id": "adoption-clicker",
-  "name": "Clicker bleu",
-  "clue": "Un petit clic pour apprendre en jouant.",
-  "hint": "Inspecte le coussin à droite.",
-  "x": 0.866,
-  "y": 0.6,
-  "rx": 0.047,
-  "ry": 0.022
+  "id": "home-lickmat",
+  "name": "Tapis de léchage",
+  "clue": "Un tapis corail pour étaler une petite gourmandise.",
+  "hint": "Cherche au premier plan, à gauche du milieu.",
+  "x": 0.32,
+  "y": 0.755,
+  "rx": 0.075,
+  "ry": 0.035
  },
  {
-  "id": "adoption-harness",
-  "name": "Harnais violet",
-  "clue": "Des sangles pour partir en promenade.",
-  "hint": "Cherche près de la caisse de transport au premier plan.",
-  "x": 0.269,
-  "y": 0.784,
-  "rx": 0.067,
+  "id": "home-feeder",
+  "name": "Distributeur de croquettes",
+  "clue": "Un appareil gris remplit la gamelle de Virgin.",
+  "hint": "Regarde les équipements au sol, à droite.",
+  "x": 0.935,
+  "y": 0.674,
+  "rx": 0.06,
   "ry": 0.085
  },
  {
-  "id": "adoption-mat",
-  "name": "Tapis de gamelle",
-  "clue": "Un tapis vert pour garder le sol propre.",
-  "hint": "Regarde le sol au premier plan, vers le milieu.",
-  "x": 0.557,
-  "y": 0.827,
-  "rx": 0.12,
-  "ry": 0.035
+  "id": "home-harness",
+  "name": "Harnais violet",
+  "clue": "Des sangles pour les futures promenades.",
+  "hint": "Observe la caisse de transport au premier plan.",
+  "x": 0.146,
+  "y": 0.736,
+  "rx": 0.06,
+  "ry": 0.075
  },
  {
-  "id": "adoption-ball",
+  "id": "home-ball",
   "name": "Balle rouge",
-  "clue": "Un petit rond rouge qui roule entre les pattes.",
-  "hint": "Cherche tout en bas à droite.",
-  "x": 0.824,
-  "y": 0.921,
-  "rx": 0.052,
-  "ry": 0.035
+  "clue": "Un petit rond rouge pour jouer.",
+  "hint": "Cherche sur le tapis, tout en bas à droite.",
+  "x": 0.816,
+  "y": 0.846,
+  "rx": 0.037,
+  "ry": 0.028
  }
 ],cats=[
  {
-  "id": "adoption-hidden-cat1",
-  "name": "Le chat de la haute étagère",
-  "hint": "Deux oreilles dépassent tout en haut.",
-  "x": 0.34,
-  "y": 0.086,
-  "rx": 0.027,
-  "ry": 0.022
+  "id": "home-cat-motif1",
+  "name": "La figurine chat",
+  "hint": "Une petite statuette se cache sur la haute étagère.",
+  "x": 0.137,
+  "y": 0.078,
+  "rx": 0.025,
+  "ry": 0.025
  },
  {
-  "id": "adoption-hidden-cat2",
-  "name": "Le chat du panier en hauteur",
-  "hint": "Cherche dans le panier du coin droit.",
-  "x": 0.918,
-  "y": 0.052,
-  "rx": 0.027,
-  "ry": 0.022
+  "id": "home-cat-motif2",
+  "name": "La photo de chat",
+  "hint": "Regarde les cadres au mur.",
+  "x": 0.542,
+  "y": 0.102,
+  "rx": 0.033,
+  "ry": 0.03
  },
  {
-  "id": "adoption-hidden-cat3",
-  "name": "Le chat du petit casier",
-  "hint": "Explore le casier à gauche.",
-  "x": 0.078,
-  "y": 0.212,
-  "rx": 0.027,
-  "ry": 0.022
+  "id": "home-cat-motif3",
+  "name": "Le chat du rideau",
+  "hint": "Un chat se dessine sur le tissu du rideau.",
+  "x": 0.94,
+  "y": 0.148,
+  "rx": 0.035,
+  "ry": 0.032
  },
  {
-  "id": "adoption-hidden-cat4",
-  "name": "Le chat des serviettes",
-  "hint": "Regarde derrière les serviettes pliées à droite.",
-  "x": 0.96,
-  "y": 0.25,
-  "rx": 0.027,
-  "ry": 0.022
- },
- {
-  "id": "adoption-hidden-cat5",
-  "name": "Le chat des couvertures",
-  "hint": "Cherche dans les couvertures, à gauche du box.",
-  "x": 0.234,
-  "y": 0.293,
-  "rx": 0.027,
-  "ry": 0.022
- },
- {
-  "id": "adoption-hidden-cat6",
-  "name": "Le chat du coussin du box",
-  "hint": "Regarde les tissus sur le côté droit du box.",
-  "x": 0.727,
-  "y": 0.32,
-  "rx": 0.027,
-  "ry": 0.022
- },
- {
-  "id": "adoption-hidden-cat7",
-  "name": "Le chat du tunnel",
-  "hint": "Explore le tunnel de l’arbre à chat à gauche.",
+  "id": "home-cat-motif4",
+  "name": "Le chat en peluche",
+  "hint": "Cherche le petit jouet posé sur une plateforme de l’arbre à chat.",
   "x": 0.122,
-  "y": 0.517,
-  "rx": 0.027,
+  "y": 0.242,
+  "rx": 0.028,
+  "ry": 0.025
+ },
+ {
+  "id": "home-cat-motif5",
+  "name": "Le dessin de chat",
+  "hint": "Explore le mur près de la cheminée.",
+  "x": 0.781,
+  "y": 0.237,
+  "rx": 0.033,
+  "ry": 0.03
+ },
+ {
+  "id": "home-cat-motif6",
+  "name": "La broderie du canapé",
+  "hint": "Un chat est brodé sur le divan.",
+  "x": 0.694,
+  "y": 0.43,
+  "rx": 0.036,
+  "ry": 0.03
+ },
+ {
+  "id": "home-cat-motif7",
+  "name": "Le coussin chat",
+  "hint": "Une paire d’oreilles donne sa forme à un coussin.",
+  "x": 0.278,
+  "y": 0.428,
+  "rx": 0.06,
+  "ry": 0.034
+ },
+ {
+  "id": "home-cat-motif8",
+  "name": "Le chat du livre",
+  "hint": "Inspecte les livres près de la table basse.",
+  "x": 0.572,
+  "y": 0.561,
+  "rx": 0.021,
+  "ry": 0.015
+ },
+ {
+  "id": "home-cat-motif9",
+  "name": "Le chat du plaid",
+  "hint": "Regarde le motif du plaid à gauche.",
+  "x": 0.099,
+  "y": 0.481,
+  "rx": 0.04,
+  "ry": 0.025
+ },
+ {
+  "id": "home-cat-motif10",
+  "name": "La pièce de puzzle chat",
+  "hint": "Un petit chat en bois attend près de la table.",
+  "x": 0.579,
+  "y": 0.679,
+  "rx": 0.04,
   "ry": 0.022
  },
  {
-  "id": "adoption-hidden-cat8",
-  "name": "Le chat du panier moelleux",
-  "hint": "Inspecte le couchage sur la droite.",
-  "x": 0.928,
-  "y": 0.508,
-  "rx": 0.027,
-  "ry": 0.022
+  "id": "home-cat-motif11",
+  "name": "Les chaussons chats",
+  "hint": "Observe les deux chaussons douillets au premier plan.",
+  "x": 0.293,
+  "y": 0.911,
+  "rx": 0.08,
+  "ry": 0.042
  },
  {
-  "id": "adoption-hidden-cat9",
-  "name": "Le chat sous le box",
-  "hint": "Cherche dans le panier sous le grand box.",
-  "x": 0.356,
-  "y": 0.495,
-  "rx": 0.027,
-  "ry": 0.022
- },
- {
-  "id": "adoption-hidden-cat10",
-  "name": "Le chat du bac à jouets",
-  "hint": "Regarde dans le grand bac à jouets, juste sous le box.",
-  "x": 0.586,
-  "y": 0.479,
-  "rx": 0.027,
-  "ry": 0.022
- },
- {
-  "id": "adoption-hidden-cat11",
-  "name": "Le chat de la caisse de transport",
-  "hint": "Cherche dans la caisse tout en bas à gauche.",
-  "x": 0.121,
-  "y": 0.895,
-  "rx": 0.027,
-  "ry": 0.022
- },
- {
-  "id": "adoption-hidden-cat12",
-  "name": "Le chat du coussin du premier plan",
-  "hint": "Regarde derrière le coussin à droite.",
-  "x": 0.83,
-  "y": 0.768,
-  "rx": 0.027,
-  "ry": 0.022
+  "id": "home-cat-motif12",
+  "name": "Le chat du tapis de léchage",
+  "hint": "Un visage de chat est moulé dans le tapis corail.",
+  "x": 0.4,
+  "y": 0.742,
+  "rx": 0.04,
+  "ry": 0.025
  }
 ];
-const friends=[{x:.371,y:.264},{x:.532,y:.255},{x:.449,y:.326},{x:.596,y:.329}];
+const friends=[{x:.503,y:.43}];
 let waking=0;const overlay=document.getElementById('adoption-wakeup');
-function awake(){waking=0;overlay.classList.add('hidden');Garage.say('Virgin et ses trois amis sont déjà visibles. Retrouve 12 autres chats cachés et 12 accessoires modernes.');}
-const config={id:'adoption',chapter:12,title:'En attendant une famille',resultTitle:'Une famille, un jour…',image:'assets/adoption-manga.png',alt:'Refuge moderne en manga. Virgin, chaton orange et blanc, se réveille dans un box avec trois compagnons visibles. Douze autres chats se cachent parmi les accessoires d’animalerie.',items,cats,welcome:'Virgin se réveille dans un box. Il a été recueilli et attend une adoption avec ses amis.',ending:'Virgin et ses trois compagnons restent ensemble. Les douze autres chats sont retrouvés, les accessoires sont prêts. Au refuge, tous attendent la douceur d’une famille. FIN DES 12 CHÂTIMENTS.',start(){waking=5;overlay.style.opacity='1';overlay.classList.remove('hidden')},update(dt){if(waking>0){waking=Math.max(0,waking-dt);overlay.style.opacity=String(Math.min(1,waking/1.5));if(!waking)awake()}},tap(x,y){if(waking>0)return true;if(friends.some(f=>Math.hypot((x-f.x)/.025,(y-f.y)/.02)<1)){Garage.say('Virgin et ses amis sont déjà réunis. Les 12 chats à chercher se cachent ailleurs dans le refuge.');return true}return false},exit(){waking=0;overlay.classList.add('hidden')}};
+function awake(){waking=0;overlay.classList.add('hidden');Garage.say('Virgin dort sur le divan. Retrouve 12 accessoires modernes et 12 chats cachés dans les objets, photos et broderies.');}
+const config={id:'adoption',chapter:12,title:'Une maison pour Virgin',resultTitle:'Chez lui, enfin.',image:'assets/home-manga-v2.png',catLabel:'motifs de chat',catsClue:'Cherche les chats dans les photos, les jouets, les broderies et les motifs du décor.',catFound:'Une représentation de chat retrouvée !',catAlready:'Ce motif de chat est déjà retrouvé.',alt:'Salon moderne de chalet avec cheminée, grand arbre à chat de 1,80 m, gamelles, doudou chenille et Virgin endormi sur le divan. Douze accessoires pour chat et douze chats représentés dans les photos, jouets et décorations.',items,cats,welcome:'Après le refuge, Virgin a trouvé sa famille. Heureux, il dort sur le divan de sa nouvelle maison.',ending:'Virgin a enfin trouvé une famille. Son arbre à chat de 1,80 m, son doudou chenille et ses gamelles l’attendent. Près de la cheminée, il dort heureux sur le divan. FIN DES 12 CHÂTIMENTS.',start(){waking=5;overlay.style.opacity='1';overlay.classList.remove('hidden')},update(dt){if(waking>0){waking=Math.max(0,waking-dt);overlay.style.opacity=String(Math.min(1,waking/1.5));if(!waking)awake()}},tap(x,y){if(waking>0)return true;if(friends.some(f=>Math.hypot((x-f.x)/.025,(y-f.y)/.02)<1)){Garage.say('Chut… Virgin dort heureux sur le divan. Les 12 chats à chercher sont des jouets, des images ou des motifs du décor.');return true}return false},exit(){waking=0;overlay.classList.add('hidden')}};
 function start(){Garage.start(config)}
 document.getElementById('adoption-start').onclick=start;document.getElementById('adoption-skip').onclick=()=>{if(Garage.active&&Garage.inspect().chapter===12&&!Garage.inspect().paused)awake()};
 return{start,get active(){return Garage.active&&Garage.inspect().chapter===12},inspect:()=>({...Garage.inspect(),waking,friends:friends.map(f=>({...f}))})};

@@ -26,7 +26,7 @@ Un seul départ : **L’aventure commence**. Réussissez chaque niveau pour déb
 
 11. **Le rêve des pigeons** : une armée de pigeons poursuit Virgin dans une rue de jour et vise sa tête. Cliquez les objets et les abris pour esquiver les fientes, boire aux fontaines au lion, manger et rejoindre l’auvent. Trois vies, attaques annoncées et trophée kiwi.
 
-12. **En attendant une famille** : Virgin se réveille au refuge avec trois compagnons visibles. Retrouver 12 accessoires modernes d’animalerie et 12 autres chats cachés, sans chrono. Leur attente d’une adoption conclut l’aventure. Trophée pastèque.
+12. **Une maison pour Virgin** : Virgin a trouvé une famille et dort sur le divan d’un salon moderne de chalet. Cheminée, arbre à chat de 1,80 m, doudou chenille et gamelles. Retrouvez 12 accessoires modernes et 12 représentations de chats dans les photos, jouets, broderies et motifs décoratifs. Sans chrono. Trophée pastèque.
 
 Chaque réussite rapporte un trophée fruit pixelisé ; le niveau 7 donne une banane et le niveau 8 une grappe de raisin et le niveau 9 une pêche. Le niveau 10 offre un citron, le niveau 11 un kiwi et le niveau 12 une pastèque. Le trophée spécial **Shinobi** récompense la victoire face à Oscar ninja au niveau 9. Scores, records et niveaux débloqués sont enregistrés localement dans le navigateur.
 
