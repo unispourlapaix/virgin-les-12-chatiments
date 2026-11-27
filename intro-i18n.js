@@ -2,7 +2,7 @@
 const introLocales={
   "fr": {
     "prologue": "PROLOGUE · DERRIÈRE LA PORTE",
-    "title": "Virgin — Une vie de chat",
+    "title": "Virgin, Une vie de chat",
     "scene1": "« Il a encore déchiré un bout de mon canapé, ce diable ! » L’appartement semblait soudain immense.",
     "scene2": "« Non, pas mon bol de cristal ! Tu vas voir ! » Le bol se brise. Virgin tremble, puis s’enfuit.",
     "scene3": "Un miaulement effrayé. La porte. L’escalier. La rue. Les moteurs grondent et personne ne regarde en bas.",
@@ -12,7 +12,7 @@ const introLocales={
   },
   "en": {
     "prologue": "PROLOGUE · BEHIND THE DOOR",
-    "title": "Virgin — Une vie de chat",
+    "title": "Virgin, Une vie de chat",
     "scene1": "“He’s torn up my sofa again, that little devil!” The apartment suddenly felt enormous.",
     "scene2": "“No, not my crystal bowl! You’ll see!” The bowl shatters. Virgin trembles, then runs away.",
     "scene3": "A frightened meow. The door. The stairs. The street. Engines roar, and no one looks down.",
