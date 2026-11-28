@@ -2,6 +2,7 @@
 (()=>{
  const toggle=document.getElementById('garage-list-toggle'),panel=document.getElementById('garage-object-panel'),count=document.getElementById('garage-count'),full=document.getElementById('fullscreen');
  function sync(){let open=document.body.classList.contains('garage-list-open');toggle.setAttribute('aria-expanded',String(open));toggle.textContent=(open?'Fermer':'Objets')+' · '+count.textContent.replace(' objets','');}
+ document.getElementById('garage-list-close').onclick=()=>{document.body.classList.remove('garage-list-open');sync();toggle.focus?.()};
  toggle.onclick=()=>{document.body.classList.toggle('garage-list-open');sync()};
  new MutationObserver(sync).observe(count,{childList:true,characterData:true,subtree:true});
  new MutationObserver(sync).observe(document.body,{attributes:true,attributeFilter:['class']});
