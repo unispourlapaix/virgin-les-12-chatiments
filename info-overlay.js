@@ -1,9 +1,13 @@
-// Close persistent guidance across DOM panels and canvas levels, without hiding health/score.
 const InfoOverlay=(()=>{
-let hidden=false;try{hidden=window.localStorage.getItem('virgin-info-hidden')==='true'}catch{}
-const button=document.getElementById('info-close'),setting=document.getElementById('info-setting');
-function paint(){document.body.classList.toggle('infos-hidden',hidden);button.textContent=hidden?'Infos':'× Infos';button.setAttribute('aria-label',hidden?'Réafficher les informations':'Masquer les informations pour dégager le jeu');button.setAttribute('aria-expanded',String(!hidden));button.title=hidden?'Réafficher les consignes':'Fermer les informations';if(setting){setting.textContent='Informations : '+(hidden?'masquées':'affichées');setting.setAttribute('aria-pressed',String(!hidden))}}
-function toggle(){hidden=!hidden;try{window.localStorage.setItem('virgin-info-hidden',String(hidden))}catch{}paint()}
-function sync(){button.classList.toggle('hidden',!document.getElementById('intro').classList.contains('hidden')||document.body.classList.contains('menu-open')||!document.getElementById('end').classList.contains('hidden'))}
-button.onclick=toggle;if(setting)setting.onclick=toggle;paint();sync();return{sync,toggle,get visible(){return !hidden}};
+let hidden=false,areas=[];try{hidden=window.localStorage.getItem('virgin-info-hidden')==='true'}catch{}
+const setting=document.getElementById('info-setting');
+function paint(){document.body.classList.toggle('infos-hidden',hidden);if(setting){setting.textContent='Informations : '+(hidden?'masquées':'affichées');setting.setAttribute('aria-pressed',String(!hidden))}}
+function set(value){hidden=value;areas=[];try{window.localStorage.setItem('virgin-info-hidden',String(hidden))}catch{}paint()}
+function toggle(){set(!hidden)}
+function sync(){areas=[]}
+function drawClose(x,y,width){if(hidden)return;let box={x:x+width-30,y:y+3,w:26,h:26};rect(box.x,box.y,box.w,box.h,'#29303be8');text('×',box.x+5,box.y+20,'#f7dfb5',22);areas.push(box)}
+for(const b of document.querySelectorAll('[data-info-close]'))b.onclick=()=>set(true);
+if(setting)setting.onclick=toggle;
+document.addEventListener('pointerdown',e=>{if(hidden||e.target!==c||document.body.classList.contains('menu-open'))return;let r=c.getBoundingClientRect(),x=(e.clientX-r.left)*c.width/r.width,y=(e.clientY-r.top)*c.height/r.height;if(areas.some(b=>x>=b.x&&x<=b.x+b.w&&y>=b.y&&y<=b.y+b.h)){e.preventDefault();e.stopImmediatePropagation();set(true)}},true);
+paint();return{sync,toggle,drawClose,get visible(){return !hidden}};
 })();
