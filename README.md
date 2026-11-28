@@ -53,8 +53,8 @@ Le décor de Grenoble représente les montagnes, la Bastille et le téléphériq
 
 ## Chansons intégrées
 
-- **Accueil / bande dessinée** : Chatoiement de la vie.
-- **Niveau 1** : La pâtée, la pâtée !
-- **Niveau 12** : Joyeux anniversaire !
+À l’accueil et sur les niveaux 1 à 11, une playlist continue alterne **Chatoiement de la vie** et **La pâtée, la pâtée !**, puis recommence. Les chansons vont jusqu’à leur fin, sans repartir de zéro lors des changements de niveau, de l’ouverture des menus ou des pauses du jeu.
 
-Pistes fournies par le créateur du jeu, extraites des vidéos locales et encodées en AAC/M4A à 128 kbit/s. Un seul lecteur joue en boucle, à volume réduit ; les bruitages restent audibles. La lecture démarre après une interaction, suit la pause et le réglage Son, et peut aussi être coupée séparément dans Menu → Réglages → Musique. Les autres niveaux conservent leurs bruitages.
+**Joyeux anniversaire !** est réservé au niveau 12 : la chanson en cours se termine avant de lui laisser place, puis l’anniversaire se répète. Si le joueur quitte le niveau 12 pour en rejouer un autre, un court fondu ramène la playlist générale.
+
+Pistes fournies par le créateur du jeu, extraites des vidéos locales en AAC/M4A à 128 kbit/s. Un seul lecteur évite toute superposition. Son et Musique peuvent être coupés dans les réglages ; le passage en arrière-plan suspend la lecture sans perdre sa position.
