@@ -1,0 +1,10 @@
+Virgin, Une vie de chat — Icônes web et application
+
+icon.svg : source vectorielle pixel art
+favicon.ico : 16, 32, 48, 64, 128 et 256 pixels
+icon-16.png à icon-1024.png : déclinaisons carrées
+apple-touch-icon.png : 180 pixels, Apple
+icon-192.png et icon-512.png : web / Android
+icon-maskable-512.png : version avec marge de sécurité pour les masques Android
+
+Toutes les icônes ont un fond opaque.

@@ -58,3 +58,7 @@ Le décor de Grenoble représente les montagnes, la Bastille et le téléphériq
 **Joyeux anniversaire !** est réservé au niveau 12 : la chanson en cours se termine avant de lui laisser place, puis l’anniversaire se répète. Si le joueur quitte le niveau 12 pour en rejouer un autre, un court fondu ramène la playlist générale.
 
 Pistes fournies par le créateur du jeu, extraites des vidéos locales en AAC/M4A à 128 kbit/s. Un seul lecteur évite toute superposition. Son et Musique peuvent être coupés dans les réglages ; le passage en arrière-plan suspend la lecture sans perdre sa position.
+
+## Icônes web et application
+
+Le chaton orange et blanc possède une icône pixel art originale, disponible en SVG et PNG de 16 à 1024 pixels. Le favicon ICO inclut six résolutions. Les liens web, l’icône Apple 180 px et le manifeste avec icônes Android 192/512 px et maskable sont intégrés dans index.html. Les exports sont dans assets/icons/.
