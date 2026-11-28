@@ -24,7 +24,7 @@ Un seul départ : **L’aventure commence**. Réussissez chaque niveau pour déb
 
 10. **La Bastille et les bulles** : arrivée en téléphérique, panorama de Grenoble et de l’Isère, 12 objets ludiques et 12 chats cachés dans une illustration manga. Sans chrono, avec zoom et indices.
 
-11. **Le rêve des pigeons** : une armée de pigeons poursuit Virgin dans une rue de jour et vise sa tête. Cliquez les objets et les abris pour esquiver les fientes, boire aux fontaines au lion, manger et rejoindre l’auvent. Trois vies, attaques annoncées et trophée kiwi.
+11. **Le rêve des pigeons** : une armée de pigeons poursuit Virgin dans une rue de jour et vise sa tête. Cliquez les objets et les abris pour esquiver les fientes, boire aux fontaines au lion, manger et rejoindre l’auvent. Trois vies, attaques annoncées et trophée kiwi. Soleil, nuages animés, colline de la Bastille et bulles du téléphérique en arrière-plan ; voitures électriques colorées dans la rue. Les objets affichent une aide au survol ou au toucher, en français ou en anglais selon la langue choisie à l’accueil.
 
 12. **Une maison pour Virgin** : Virgin a trouvé une famille et dort sur le divan d’un salon moderne de chalet. Cheminée, arbre à chat de 1,80 m, doudou chenille et gamelles. Retrouvez 12 accessoires modernes et 12 représentations de chats dans les photos, jouets, broderies et motifs décoratifs. Sans chrono. Trophée pastèque.
 
