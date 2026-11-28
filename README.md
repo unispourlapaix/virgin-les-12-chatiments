@@ -16,7 +16,7 @@ Un seul départ : **L’aventure commence**. Réussissez chaque niveau pour déb
 4. **Le garage caché** : retrouver 12 objets anciens et 7 chats.
 5. **Retour dans la nuit** : repartir vers la gauche, entre camions-poubelles, rats, araignées, chiens et chats.
 6. **Les chats de la ruelle** : retrouver 12 objets des années 2020 et 12 chats dissimulés.
-7. **Les égouts** : retrouver 12 objets anciens et 12 chats en trois minutes. Le chronomètre à zéro déclenche GAME OVER et le débordement des eaux boueuses. Les deux vannes font baisser temporairement l’eau, sans prolonger le temps.
+7. **Les égouts** : retrouver 12 objets anciens et 12 chats en trois minutes. Le décor propre et sec reste affiché pendant les trois minutes ; le chronomètre à zéro déclenche GAME OVER et le basculement sur l’image inondée. Les deux vannes soulagent temporairement la pression, sans prolonger le temps. Recommencer restaure l’image propre.
 
 8. **Le marché de Noël** : retrouver 12 objets français et festifs et 12 chats, parmi les chalets, les passants modernes et les vendeurs. Cette scène se joue sans chrono.
 
