@@ -60,3 +60,5 @@ header>div>small{display:block;font:8px/1.2 monospace;letter-spacing:1px;color:#
 .sewer-flood-art{display:none;position:absolute;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:none}.sewer-effects .sewer-channel{display:none}.sewer-effects.flooded .sewer-flood-art{display:block}
 
 .sewer-atmosphere{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;image-rendering:pixelated;pointer-events:none}.sewer-effects.flooded .sewer-atmosphere{display:none}
+
+.sewer-rat-reveal{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;clip-path:ellipse(14.84% 10.16% at 50.78% 40.36%);opacity:0;pointer-events:none}.sewer-effects.flooded .sewer-rat-reveal{display:none}
